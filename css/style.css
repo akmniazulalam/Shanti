@@ -1851,6 +1851,11 @@ hr{
     font-size: 26px;
     color: #C4C4C4;
 }
+.fb i{
+    background: linear-gradient(to right, #dbae66, #0ed876);
+    color: transparent;
+    -webkit-background-clip: text;
+}
 .socialMediaIcons i:hover{
     background: linear-gradient(to right, #dbae66, #0ed876);
     color: transparent;
