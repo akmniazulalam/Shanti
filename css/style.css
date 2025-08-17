@@ -1308,7 +1308,6 @@ sup {
     background: linear-gradient(to right, #dbae66, #0ed876);
     color: transparent;
     -webkit-background-clip: text;
-    /* border-bottom: 2px solid #02ca69; */
     position: relative;
 }
 .exploreBtn a span::after{
