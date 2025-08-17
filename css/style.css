@@ -617,6 +617,7 @@ ul li {
 .leftArrow {
     font-size: 32px;
     color: #fff;
+    cursor: pointer;
 }
 
 .rightArrow {
@@ -624,7 +625,8 @@ ul li {
     background: linear-gradient(to right, #ecbd70, #08e279);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    padding-left: 10px;
+    margin-left: 10px;
+    cursor: pointer;
 }
 
 .arrows {
@@ -880,6 +882,7 @@ ul li {
 .businessInnovations {
     padding-top: 40px;
     display: flex;
+    cursor: pointer;
 }
 
 .businessInnovations i {
@@ -898,6 +901,7 @@ ul li {
 .technology {
     padding-top: 40px;
     display: flex;
+    cursor: pointer;
 }
 
 .technology i {
@@ -916,6 +920,7 @@ ul li {
 .solutions {
     padding-top: 40px;
     display: flex;
+    cursor: pointer;
 }
 
 .solutions i {
@@ -934,6 +939,7 @@ ul li {
 .cancelAnytime {
     padding-top: 40px;
     display: flex;
+    cursor: pointer;
 }
 
 .cancelAnytime i {
@@ -952,6 +958,7 @@ ul li {
 .customerservice {
     padding-top: 40px;
     display: flex;
+    cursor: pointer;
 }
 
 .customerservice i {
@@ -1342,13 +1349,14 @@ sup {
 .left_Arrow{
     font-size: 24px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 .right_Arrow{
     font-size: 24px;
     background: linear-gradient(to right, #ebb257, #0ed876);
     color: transparent;
     -webkit-background-clip: text;
-    
+    cursor: pointer;
 }
 /* Projects Part End  */
 /* Find Out Why Part Start  */
@@ -1408,14 +1416,16 @@ sup {
     padding-top: 16px;
 }
 .left i{
-    padding-top: 30px;
-    padding-left: 170px;
+    margin-top: 30px;
+    margin-left: 170px;
     font-size: 30px;
+    cursor: pointer;
 }
 .right i{
-    padding-top: 30px;
-    padding-left: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
     font-size: 30px;
+    cursor: pointer;
 }
 .robert h5{
     font-family: "Syne", sans-serif;
@@ -1847,14 +1857,16 @@ hr{
     padding-top: 12px;
 }
 .socialMediaIcons i{
-    padding-right: 10px;
+    margin-right: 10px;
     font-size: 26px;
     color: #C4C4C4;
+    cursor: pointer;
 }
 .fb i{
     background: linear-gradient(to right, #dbae66, #0ed876);
     color: transparent;
     -webkit-background-clip: text;
+    cursor: pointer;
 }
 .socialMediaIcons i:hover{
     background: linear-gradient(to right, #dbae66, #0ed876);
