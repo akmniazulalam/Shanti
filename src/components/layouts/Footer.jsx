@@ -3,6 +3,7 @@ import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { Sun, Moon } from "lucide-react"
 import { NavLink } from "react-router-dom"
+import Logo from "/src/assets/shanti-removebg-preview.png"
 
 const Footer = () => {
   const [darkMode, setDarkMode] = useState(false)
@@ -47,7 +48,7 @@ const Footer = () => {
           <div className="flex flex-col gap-4 md:w-1/4">
             <NavLink to={"/"}>
               <img
-              src="/src/assets/shanti-removebg-preview.png"
+              src={Logo}
               alt="Shanti Logo"
               className="w-32 md:w-40"
             />

@@ -4,6 +4,7 @@ import { Menu, Moon, Sun, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { cn } from "@/lib/utils"
+import Logo from "/src/assets/shanti-removebg-preview.png"
 
 const Header = () => {
   const [open, setOpen] = useState(false)
@@ -36,7 +37,7 @@ const Header = () => {
         {/* Logo */}
         <NavLink to={"/"} className="logo w-32 md:w-40">
           <img
-            src="/src/assets/shanti-removebg-preview.png"
+            src={Logo}
             alt="Shanti Logo"
             className="w-full h-auto"
           />
