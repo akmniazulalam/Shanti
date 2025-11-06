@@ -1,7 +1,4 @@
 import React, { useState, useEffect } from "react"
-import { cn } from "@/lib/utils"
-import { Button } from "@/components/ui/button"
-import { Sun, Moon } from "lucide-react"
 import { NavLink } from "react-router-dom"
 import Logo from "/src/assets/shanti-removebg-preview.png"
 

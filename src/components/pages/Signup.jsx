@@ -19,6 +19,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import toast, { Toaster } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
+import userPhoto from "/src/assets/userPhoto.png"
 
 const Signup = () => {
   const [userInfo, setUserInfo] = useState({
@@ -68,7 +69,7 @@ const Signup = () => {
           updateProfile(user, {
             displayName: userInfo.name,
             phoneNumber: "userInfo.phone",
-            photoURL: "userPhoto.png"
+            photoURL: userPhoto
           })
             .then(() => {
               console.log("User Info:");

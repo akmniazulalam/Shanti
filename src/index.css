@@ -1,0 +1,6 @@
+.sidebar .h-full.overflow-y-auto.overflow-x-hidden.rounded.bg-gray-50.px-3.py-4.dark\:bg-gray-800 {
+    background: #5F35F5;
+    color: white;
+    border-radius: 16px;
+    padding-bottom: 20px;
+}

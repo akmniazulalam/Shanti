@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { FcGoogle } from "react-icons/fc";
 import {
   getAuth,
   signInWithEmailAndPassword,
@@ -109,7 +110,7 @@ const Login = () => {
           <CardHeader className="text-center">
             {/* Title with Gradient */}
             <CardTitle
-              className={`text-[18px] font-bold bg-clip-text text-transparent ${gradientColors}`}>
+              className={`text-[20px] font-bold bg-clip-text text-transparent ${gradientColors}`}>
               Login to your account
             </CardTitle>
 
@@ -131,7 +132,7 @@ const Login = () => {
           </CardHeader>
 
           <CardContent>
-            <form onClick={handleLogin}>
+            <form onSubmit={handleLogin}>
               <div className="flex flex-col gap-6">
                 <div className="grid gap-2">
                   <Label htmlFor="email" className="text-[#5e5eee]">
@@ -149,7 +150,7 @@ const Login = () => {
                       }))
                     }
                     required
-                    className="focus:border-[#5e5eee] focus:ring-1 focus:ring-[#36b7cc]"
+                    className="focus:border-0 focus:ring-0"
                   />
                 </div>
                 <div className="grid gap-2">
@@ -166,6 +167,7 @@ const Login = () => {
                   <Input
                     id="password"
                     type="password"
+                    placeholder="***********"
                     value={userInfo.password}
                     onChange={(e) =>
                       setUserInfo((prev) => ({
@@ -174,7 +176,7 @@ const Login = () => {
                       }))
                     }
                     required
-                    className="focus:border-[#5e5eee] focus:ring-1 focus:ring-[#36b7cc]"
+                    className="focus:border-0 focus:ring-0"
                   />
                 </div>
                 <CardFooter className="flex flex-col gap-2 px-0">
@@ -187,7 +189,7 @@ const Login = () => {
                     variant="outline"
                     onClick={handleGoogleLogin}
                     className={`w-full cursor-pointer border-[#5e5eee] text-[#5e5eee] hover:bg-[#5e5eee]/10 hover:text-[#3d76dc] transition`}>
-                    Login with Google
+                    <FcGoogle/> Login with Google
                   </Button>
                 </CardFooter>
               </div>
