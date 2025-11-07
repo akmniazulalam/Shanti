@@ -22,7 +22,7 @@ function App() {
           <Route path={"*"} element={<Error />} />
         </Route>
         <Route path={"/dashboard"} element={<DashboardLayout />}>
-          <Route path="/dashboard" element={<Dashboard/>} />
+          <Route index element={<Dashboard/>} />
           <Route path={"chats"} element={<Chats />} />
           <Route path={"notifications"} element={<Notifications />} />
           <Route path={"settings"} element={<Settings />} />
