@@ -140,7 +140,7 @@ const Signup = () => {
   return (
     <>
       <Toaster />
-      <div className={"py-6 bg-[#3594d5]"}>
+      <div className={"py-10 px-5 bg-[#3594d5]"}>
         <Card className="w-full max-w-sm mx-auto shadow-lg font-lexend">
           <CardHeader className="text-center">
             {/* Title with Gradient */}
