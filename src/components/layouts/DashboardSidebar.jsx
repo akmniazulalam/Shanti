@@ -16,8 +16,8 @@ import { NavLink, Link } from "react-router-dom";
 
 const DashboardSidebar = () => {
   return (
-    <div className="p-4">
-      <div className="w-fit h-[95vh] sidebar rounded-2xl flex flex-col justify-between">
+    <div className="pr-4 w-fit h-full">
+      <div className="w-fit h-full sidebar rounded-2xl flex flex-col justify-between">
         <Sidebar
           aria-label="Sidebar with multi-level dropdown example"
           className="text-center h-full">
